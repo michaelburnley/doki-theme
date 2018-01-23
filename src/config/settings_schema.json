@@ -60,6 +60,35 @@
     ]
   },
   {
+    "name": "Homepage",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Homepage Settings"
+      },
+      {
+        "type": "image_picker",
+        "id": "hero_banner.jpg",
+        "label": "Hero Banner",
+      },
+      {
+        "type": "text",
+        "id": "hero_banner_alt",
+        "label": "Hero Banner Alt",
+      },
+      {
+        "type": "text",
+        "id": "hero_banner_link",
+        "label": "Hero Banner URL",
+      },
+      {
+        "type": "product",
+        "id": "featured_product_home",
+        "label": "Featured product",
+      }
+    ]
+  },
+  {
     "name": "Social media",
     "settings": [
       {
