@@ -1,0 +1,22 @@
+<script type="text/javascript" src="{{ 'instafeed.min.js' | asset_url }}"></script>
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: 'YOUR_CLIENT_ID'
+    });
+    feed.run();
+</script>
+<!-- {{ content_for_index }} -->
+<div class="container">
+	<div id="hero">
+		<a href="{{ settings['hero_banner_link'] }}">
+			<img src="{{ 'hero_banner.jpg' | asset_url }}" alt="{{ settings['hero_banner_alt'] }}">
+		</a>
+	</div>
+	<div class="featured-product">
+		{{ settings['featured_product_home'] }}
+	</div>
+
+	<div id="instafeed" ></div>
+</div>

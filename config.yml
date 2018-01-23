@@ -14,8 +14,8 @@
 ---
 
 development:
-  password:
-  theme_id:
+  password: f748cd7723c0158a0e068b5b5ec13558
+  theme_id: 463175692
   store: dokidokidesu.myshopify.com
   ignore_files:
     #- settings_data.json # Uncomment this line to avoid resetting theme settings
